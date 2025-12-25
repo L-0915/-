@@ -97,3 +97,20 @@ LLM API密钥 (OpenAI/DeepSeek等)
 
 打开浏览器访问 `http://localhost:5173`
 
+# 文件上传到GitHub
+
+1. 打开你要上传的文件的路径，右键，选择open git base here
+2. `git init`
+3. 如果在master分支，可以用`git branch -m master main`
+4. `git add *`
+5. 先回到刚刚生成的.git文件夹，然后点击进去找到config文件，用记事本打开，
+  添加[user]
+
+      email=你的邮箱
+   
+      name=你的名字
+      
+7. `git commit -m "备注"`
+8. `git remote add origin [对应的网址](https://github.com/你的用户名/仓库名.git)`
+9. `git push -u origin main`
+
