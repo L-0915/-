@@ -1,4 +1,4 @@
-智能旅游助手 ✈️
+#智能旅游助手 ✈️`
 
 功能特点：
 
@@ -67,9 +67,9 @@ LLM API密钥 (OpenAI/DeepSeek等)
 
 配置环境变量:
 
-`cp .env.example .env
+```cp .env.example .env
 
-# 编辑.env文件,填入你的API密钥`
+# 编辑.env文件,填入你的API密钥```
 
 启动后端服务:
 
@@ -87,8 +87,8 @@ LLM API密钥 (OpenAI/DeepSeek等)
 
 配置环境变量:
 
-`# 创建.env文件,配置高德地图Web API Key
-echo "VITE_AMAP_WEB_KEY=your_amap_web_key" > .env`
+```# 创建.env文件,配置高德地图Web API Key
+echo "VITE_AMAP_WEB_KEY=your_amap_web_key" > .env```
 
 启动开发服务器:
 
