@@ -1,6 +1,6 @@
-#智能旅游助手 ✈️`
+# 智能旅游助手 ✈️
 
-功能特点：
+# 功能特点：
 
 1.AI大模型驱动的SimpleAgent,智能生成详细的多日旅程；
 
@@ -12,7 +12,7 @@
 
 5.结果界面包含费用、交通、每天游览的景点、住宿、餐饮推荐等
 
-**技术栈**
+# **技术栈**
 
 后端
 
@@ -35,7 +35,8 @@ UI组件库: Ant Design Vue
 地图服务: 高德地图 JavaScript API
 
 HTTP客户端: Axios
-快速开始：
+
+# 快速开始：
 
 1.前提条件
 
@@ -47,7 +48,7 @@ Node.js 16+
 
 LLM API密钥 (OpenAI/DeepSeek等)
 
-2.后端安装
+# 2.后端安装
 
 进入后端目录：
 
@@ -67,15 +68,15 @@ LLM API密钥 (OpenAI/DeepSeek等)
 
 配置环境变量:
 
-```cp .env.example .env
+`cp .env.example .env`
 
-# 编辑.env文件,填入你的API密钥```
+`# 编辑.env文件,填入你的API密钥`
 
 启动后端服务:
 
 `python run.py`
 
-3.前端安装
+# 3.前端安装
 
 进入前端目录：（新开一个终端）
 
@@ -87,8 +88,8 @@ LLM API密钥 (OpenAI/DeepSeek等)
 
 配置环境变量:
 
-```# 创建.env文件,配置高德地图Web API Key
-echo "VITE_AMAP_WEB_KEY=your_amap_web_key" > .env```
+`# 创建.env文件,配置高德地图Web API Key`
+`echo "VITE_AMAP_WEB_KEY=your_amap_web_key" > .env`
 
 启动开发服务器:
 
